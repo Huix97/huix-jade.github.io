@@ -1,9 +1,9 @@
-@font-face {
-    font-family: "a";
-    /*中文字体*/
-    src: url();
-    font-display: swap;
-}
+/*@font-face {*/
+/*    font-family: "a";*/
+/*    !*中文字体*!*/
+/*    src: url();*/
+/*    font-display: swap;*/
+/*}*/
 
 
 @font-face {
@@ -52,9 +52,9 @@ a:focus {
     height: 20%;
 }
 
-::-webkit-scrollbar-track {
-    background-color: var(--main_bg_color, linear-gradient(50deg, #a2d0ff, #ffffff));
-}
+/*::-webkit-scrollbar-track {*/
+/*    background-color: var(--main_bg_color, linear-gradient(50deg, #a2d0ff, #ffffff));*/
+/*}*/
 
 
 
@@ -154,7 +154,7 @@ body {
     backdrop-filter:  blur(var(--back_filter));
     -webkit-backdrop-filter: blur(var(--back_filter));
     z-index: -99999999;
-   
+
 }
 
 .zyyo-main {
@@ -253,7 +253,7 @@ body {
 
 #line {
     width: 100%;
-    height: 200px;
+    height: 50px;
     font-size: 13px;
     padding-left: 8px;
     scroll-snap-type: y mandatory;
@@ -294,7 +294,7 @@ body {
 
 
 
-.zyyo-right {
+.head-right {
     width: calc(100% - 230px);
     display: flex;
     padding: 20px;
