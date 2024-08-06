@@ -329,13 +329,12 @@ body {
 
 
 .gradientText {
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
-    background-position: 0%;
+    background-position: 0;
     font-family: "title";
-    animation: backgroundSizeAnimation 10s ease-in-out infinite;
+    animation: backgroundSizeAnimation 5s ease-in-out infinite;
       background-image:  var(--gradient);
 }
 
